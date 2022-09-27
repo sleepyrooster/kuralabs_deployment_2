@@ -143,7 +143,7 @@ pipeline {
 
 
 
-### Error while performing deployment
+### Errors while performing deployment
 1) Installing Elastic Beanstalk CLI on the EC2 instance
 - After installing the EB CLI to the Jenkins user, I couldn't use `$ eb --version` to check to see the version of the EB CLI
 - To fix this I needed to copy the path where the EB CLI was stored and placed it in the `/etc/environment` so that I could use it globally
