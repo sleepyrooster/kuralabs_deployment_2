@@ -83,7 +83,7 @@ $ eb --version
 12) Once all other setting was checked, the pipeline was applied and saved. Jenkins then started a build based on the Jenkinsfile.
 13) To deploy the application to Elastic Beanstalk using the EB CLI, the following commands was used:
 ```
-$ sudo us - jenkins -s /bin/bash
+$ sudo su - jenkins -s /bin/bash
 $ cd workspace/url-shortener-main
 $ eb init
 ```
