@@ -141,6 +141,12 @@ pipeline {
 ```
 15) Once the deploy stage was added, Jenkins scanned the repository and started another build.
 
+### Changes to pipeline
+In deployment 2, I chaned the UI of the application:
+
+![this is a file](images/link1.png)
+![this is a file](images/link2.png)
+
 
 
 ### Errors while performing deployment
